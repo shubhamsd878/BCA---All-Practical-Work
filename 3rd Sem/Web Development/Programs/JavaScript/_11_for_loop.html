@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>For Loop - program to count sum of n natural numbers | Shubham Dahiya</title>
+</head>
+<body>
+<h1>For Loop - program to count sum of n natural numbers</h1>
+<script>
+// program to display the sum of n natural numbers
+let sum = 0;
+let n = prompt("Enter no. of natural to find sum: ");
+n = parseInt(n)
+
+for(let i = n; i >= 1; i-- ) {
+// adding i to sum in each iteration
+sum += i; // sum = sum + i
+}
+
+document.write("Sum of " + n +" natural number is: " + sum)
+console.log('sum:',sum);
+</script>
+</body>
+</html>

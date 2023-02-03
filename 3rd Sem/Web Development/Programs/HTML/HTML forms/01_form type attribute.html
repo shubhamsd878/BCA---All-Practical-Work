@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Form</title>
+</head>
+<body>
+
+    <h1 face="">HTML Forms attribute type:</h1>
+    <hr>
+    <form action="" target="" method="">
+    <!-- 3 attribute: action, target, method, autocomplete="on/off", novalidate (empty attribute) -->
+
+        <label for="">radio:  </label>
+    <!-- action attribute takes to the path to the backend page-->
+        <input type="radio" name="number">
+        <!-- type : by-default = text  -->
+        <!-- name : without name the value will not be submited to action page.
+                    must have, without it we can select mulitple options-->
+
+        <!-- for : has same value as of input "id" -->
+        <label >One</label>
+        <!-- label tag have the value to show to the user of the website -->
+        <input type="radio" name="number">
+        <label for=""> Two </label>
+    </form>
+
+    <hr>
+    
+    <form action="">
+        <label for="">checkbox:  </label>
+
+        <input type="checkbox" id="id1" name="check1">
+        <label for= "id1">option_1</label>
+        <input type="checkbox" id="id2" name="check1">
+        <label for="id2" name="check1">option_2</label>
+    </form>
+    
+    <hr>
+    <form action="">
+        <label for="">text:  </label>
+        <label for="fname">First Name:</label>
+        <!-- label : before input in this type of case -->
+        <input type="text" id="fname" name="fname">
+
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname">
+    </form>
+
+    <hr>
+    <!-- *** type="hidden" Understand it *** -->
+    <form action=" ">
+        <label for="" >hidden: </label>
+        <input type="hidden">
+    </form>
+
+    <!-- *** type="image" How to use it *** -->
+    <hr>
+    <form action="">
+        <label for="">image: </label>
+        <p>Image is used to submit</p>
+        <input type="image" src="img_submit.gif" height="48" width="48">
+    </form>
+        
+    <!-- ***type="range" How to use it*** -->
+    <hr>
+    <form action="">
+        <label>range: </label>
+        <input type="range">
+    </form>
+
+    <!-- ***type="reset" How to use it*** -->
+    <hr>
+
+    <form action="">
+        type value to reset: 
+        <input type="text">
+        <label>reset: </label>
+        <input type="reset">
+    </form>
+    
+    <!-- ***type="search" How to use it*** -->
+    <hr>
+    <form action="">
+        <label>search: </label>
+        <input type="search">
+    </form>
+    
+    <hr>
+    <!-- ***type="tel" Why to use tel*** -->
+    <form action="">
+        <label>tel: </label>
+        <input type="tel">
+    </form>
+    
+    <hr>
+    <form action="">
+        <label for="">color:</label>
+        <input type="color">
+    </form>
+
+    <hr>
+    <form>
+        <label for="">button: </label>
+        <input type="button" value="Button" onclick="alert('Hello! World')">
+    </form>
+
+    <hr>
+    <form action="">
+        <label>date: </label>
+        <input type="date">
+    </form>
+
+    <hr>
+    
+
+    <hr>
+    <form action="">
+        <label>datetime:</label>
+        <input type="datetime">
+    </form>
+
+    <hr>
+    <form action="">
+        <label>datetime-local</label>
+        <input type="datetime-local">
+    </form>
+    <hr>
+    <form action="">
+        <label>month: </label>
+        <input type="month">
+    </form>
+    
+    <hr>
+    <form action="">
+        <label>time: </label>
+        <input type="time">
+    </form>
+    
+
+    <hr>
+    <form action="">
+        <label>week: </label>
+        <input type="week">
+    </form>
+
+    <hr>
+    <form action="">
+        <label for="">email:</label>
+        <input type="email">
+        <input type="submit">
+    </form>
+
+    <hr>
+    <form action="">
+        <label for="">file:</label>
+        <input type="file">
+    </form>
+
+    <hr>
+    <form action="">
+        <label for="">multiple file:</label>
+        <input type="file" multiple>
+    </form>
+    
+    <hr>
+    <form action="">
+        <label>number: </label>
+        <input type="number">
+    </form>
+    
+    <hr>
+    <form action="">
+        <label>password: </label>
+        <input type="password">
+    </form>
+    
+    <hr>
+    <form action="">
+        <label>submit: </label>
+        <input type="submit">
+    </form>
+
+
+    <hr>
+    <form action="">
+        <label>url: </label>
+        <input type="url">
+    </form>
+
+</body>
+</html>

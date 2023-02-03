@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Function with returnType + parameter | Shubham Dahiya</title>
+</head>
+<body>
+<h1>Function with returnType + parameter</h1>
+<script>
+function factorial(num) {
+if (num == 0) 
+return 1
+let x = num - 1;
+while (x > 1) {
+num *= x;
+x--;
+}
+return num;
+}
+
+let n = 8
+
+document.write(`Factorial of ${n} is: ${factorial(n)}`)
+</script>
+</body>
+</html>

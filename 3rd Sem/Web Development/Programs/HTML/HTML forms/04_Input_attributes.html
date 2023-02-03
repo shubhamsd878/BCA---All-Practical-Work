@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Input Attribute </title>
+</head>
+<body>
+    <h1>Input Attributes</h1>
+    <hr>
+
+    <form action="">
+        <h3>#1 value + #2 readonly: </h3>
+        <label for="fname1">First Name</label>
+        <input type="text" id="fname1" value="predefined" readonly>
+
+        <hr>
+        <h3>#3 disabled</h3>
+        <label for="fname2">First Name</label>
+        <input type="text" id="fname2" value="predefined" disabled>
+
+        <hr>
+        <h3>#4 size</h3>
+        <p><b>Note: </b> Size & Maxlength is only going to work in: <u> text, search, tel, url, email, and password </u></p>
+        
+        <br>
+        <br>
+        <label for="pin1"> Pin:</label>
+        <input type="text" id="pin1" title="Enter Pin here" size="5">
+        <!-- Size is only going to work in: text, search, tel, url, email, and password -->
+        
+        <br>
+        <br>
+        <label for="pin2"> Pin:</label>
+        <input type="number" id="pin2" value="014" size="5">
+        
+        <br>
+        <hr>
+        <h3>#5 maxlength</h3>
+        <label for="pin3">Pin: </label>
+        <input type="number" id="pin" name="pin" maxlength="4" size="4">      <!-- maslength not working-->
+        <input type="text" id="pin2" value="0123" maxlength="5" size="4">
+
+        <hr>
+        <fieldset>
+            <legend> <h3> #6 max + #7 min </h3></legend>
+        <!-- <h3>#6 max + #7 min</h3> -->
+        <h5>date syntax = "YYYY-MM-DD"</h5>
+        <label for="datemax">Enter a Date between 2021-10-01 to 2021-10-31:</label>
+        <input type="date" id="datemax" min= "2021-10-01" max="2021-10-31">
+        <!-- date syntax = "YYYY-MM-DD" -->
+
+        </fieldset>
+
+        <br>
+        <hr>
+        <h3>#9 multiple</h3>
+        <p> &nbsp &nbsp &nbsp &nbspi.e. user can enter more than one values</p>
+
+        <label for="file">Select file</label>
+        <input type="file" id="file" multiple>
+
+        <br>
+        <hr>
+        <h3>#10 Pattern</h3>
+        <p><b>to be done after JS_Regular_Expressions</b></p>
+
+        <br><br>
+        <hr>
+
+        <h3>#11 placeholder</h3>
+        <label for="phone">Phone No. :</label>
+        <input type="tel" id="phone" name="phoneNumber" placeholder="0123-456-789" maxlength="10">
+
+        <br>
+        <hr>
+        <h3>#12 required</h3>
+        <p><B>Note:</B> Supported types: text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.
+
+            Example</p>
+        <label for="rollno.">Roll No. :</label>
+        <input type="text" id="rollno." name="rollno." required>
+        <input type="submit" name="submit">
+        <br>
+        <hr>
+        
+        <h3>#13 step</h3>
+
+        <p>step attribute specifies the legal number intervals for an input field. </p>
+
+        <p> <b> Example: </b> if step="3", legal numbers could be -3, 0, 3, 6, etc. </p>
+            
+        <p> <b> Tip:b </b> This attribute can be used together with the max and min attributes to create a range of legal values. </p>
+            
+         <p>   The step attribute works with the following input types: number, range, date, datetime-local, month, time and week.</p>
+
+        <label for="step">Points:</label>
+        <input type="number" id="step" step="3" required >
+        <input type="submit" name="submit">
+
+        <br>
+        <hr>
+
+        <h3>#14 autofocus</h3>
+
+        <label for="fname2"> First Name:</label>
+        <input type="text" id="fname2" name="fname2" autofocus>
+        <label for="lname2"> Last Name:</label>
+        <input type="text" id="lname2" name="fname2" autofocus>
+
+        <br>
+        <hr>
+
+        <h3>#15 height width</h3>
+        <p><b>type="submit"</b> work as if submit</p>
+        <input type="image" src="img_submit.gif" height="48" width="48">
+
+        <br><hr>
+
+        <h3>#16 list</h3>
+        <p><b>Note:</b> list=" id(datalist) " has the same value as id of datalist element</p>
+        <input list="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+
+
+        <br><hr>
+        <h3>#16 autocomplete = "on/off"</h3>
+        <fieldset>
+            <legend>Autocomplete:<b> //NOT Working</b> </legend>
+
+            <label for="fname" autocomplete="off">First name:</label>
+            <input type="text" id="fname" name="fname" autocomplete="on"><br><br>
+            <label for="lname" autocomplete="on">Last name:</label>
+            <input type="text" id="lname" name="lname" autocomplete="on"><br><br>
+            <label for="email" autocomplete="on">Email:</label>
+            <input type="email" id="email" name="email" autocomplete="off" ><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+
+
+        
+
+    </form>
+</body>
+</html>

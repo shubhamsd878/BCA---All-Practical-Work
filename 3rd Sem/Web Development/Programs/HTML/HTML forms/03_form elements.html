@@ -1,0 +1,101 @@
+
+<!-- *** Output : To be done ***  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form elements</title>
+</head>
+<body>
+    <h1>Form elements</h1>
+
+    <label for="">#8 output: </label>
+    <!-- *** Output : To be done ***  -->
+    <br>
+    <br>
+    <br>
+    
+    <form >
+        <!-- #1 label -->
+        <label for="">#1 label (This is a label)</label>
+        <br>
+        <br>
+
+        <label for=""> #2 input:       </label>
+        <input type="submit" value="sbmit">
+    
+        <br>
+        <br>
+        <label for="">#3 select: </label>
+        <select name="option" id="" size="4" multiple>
+            <!-- size : no. of visible values  -->
+            <!-- multiple : user can select multiple values -->
+            <option value="option1">option1</option>
+            <option value="option2">option2</option>
+            <option value="option3">option3</option>
+            <option value="option4">option4</option>
+            <option value="option5" selected>option5</option>
+            <!-- selected : by default this option will be selected -->
+            <option value="option6">option6</option>
+            <option value="option7">option7</option>
+            <option value="option8">option8</option>
+        </select>
+
+        <br>
+        <br>
+        <br>
+
+        <label for="">#4 textarea:   </label>
+        <textarea name="textarea000" id="" cols="30" rows="10" >              </textarea>>
+        <!-- can also define area with the help of CSS by using width-height -->
+
+        <br>
+        <br>
+        <br>
+
+        <label for="">#5 fieldset(group related data in a form) + #6 legend(a caption for fieldsets) :</label>
+        <br>
+        <br>
+        <fieldset>
+            <br>
+            <legend>#6_Lengend of #5_fieldset</legend>
+
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" value="Shubham" name="fname">
+        
+            <br>
+            <br>
+        
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" value="Dahiya" name="lname">
+        
+            <br>
+            <br>
+            <input type="submit" value="submit" >
+            <input type="reset" value="clear">
+
+        </fieldset>
+
+
+        <br>
+        <br>
+        <br>
+        
+        
+        <label for="">#7 datalist: </label>
+        
+        <input list="abc" >
+            <!-- list : have same value as of "id" in datalist.  -->
+        <datalist id="abc">
+            <option value="abc1">
+                <!-- opiton : doesn't have end tag -->
+            <option value="abc2" >
+            <option value="abc3">
+            <option value="abc4">
+            <option value="abc5">
+            <option value="abc6">
+        </datalist>
+    </form>
+    
+</body>
+</html>

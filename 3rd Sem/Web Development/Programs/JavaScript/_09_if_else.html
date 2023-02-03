@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>  
+<html>  
+<head>  
+<title>if-else : Grade Calculator | Shubham Dahiya</title>  
+</head>  
+<body>  
+<h1>  if-else Statement in the JavaScript</h1>  
+<script type="text/javascript">  
+/*
+if percentage >85 ->A
+->A- if %<=85 and >80
+->B if %<=80 and >70
+->C if %<=70 and >60
+->D if %<=60 and >40
+->E if %<=40 and also should print 'candidate failed' if %<=35
+Input
+enter the percentage of student:
+86
+Output
+Grade - 'A'
+*/
+
+var msg = 'enter the percentage of student:';
+//msg for user input
+var a = prompt(msg);
+if(a>80)
+{
+document.write('Grade - A');
+}
+
+else if(a>70 && a<=80)
+//message variable
+{
+document.write('Grade - B');
+}
+
+else if(a>60 && a<=70)
+{
+document.write('Grade - C'); 
+}
+else if(a<=60 && a>35)
+{ document.write('Grade - D'); }
+else if(a<=35) 
+{ 
+document.write('Grade - E Candidate failed');
+}  
+
+</script>  
+</body>  
+</html> 

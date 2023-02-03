@@ -1,0 +1,34 @@
+<html>  
+<head>
+    <title>Arithmetic Operator- Calculator | Shubham Dahiya</title>
+<script>  
+  
+// accept the number from the user through prompt box  
+const number1 = parseFloat(prompt ('Enter 1st number: '));  
+const operator = prompt('Enter operator to perform the calculation ( either +, -, * or / ): ');  
+const number2 = parseFloat(prompt ('Enter 2nd number: '));  
+  
+let result; 
+  
+//if-else ladder: 
+if (operator == '+') { 
+    result = number1 + number2;  
+}  
+else if (operator == '-') {  
+    result = number1 - number2;  
+}  
+else if (operator == '*') {  
+    result = number1 * number2;  
+}  
+else {  
+    result = number1 / number2; 
+}  
+  
+// Result 
+window.alert(" Result is" + result);  
+</script>
+
+<body>  
+    <h1>Calclulator - Arithmetic Operator</h1>
+</body>  
+    </html>  

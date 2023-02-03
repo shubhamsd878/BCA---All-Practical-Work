@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Calclator - Variable + Operator | Shubham Dahiya</title>
+
+
+
+<script> 
+
+
+// take number 1
+var number1 = parseFloat(prompt('Enter first number: '));
+
+// take the operator input
+var operator = prompt('Enter operator ( either +, -, * or / ): ');
+//taking number 2
+var number2 = parseFloat(prompt('Enter second number: '));
+
+var result;
+
+// using if...else if... else
+if (operator == '+') {
+result = number1 + number2;
+}
+else if (operator == '-') {
+result = number1 - number2;
+}
+else if (operator == '*') {
+result = number1 * number2;
+}
+else {
+result = number1 / number2;
+}
+
+// result output
+console.log(`${number1} ${operator} ${number2} = ${result}`);       
+</script> 
+</head>
+<body>
+<h1>Variable + Operator in Javascipt </h1>
+<h3>Calculator Program</h3>
+<p >Open console for output</p>
+
+</body> 
+</html>

@@ -1,0 +1,5 @@
+implement listener class
+init -> add___Listener
+showStatus -> update showStatus
+public void paint(Graphic g){ g.drawString("message", X, Y) }
+ 

@@ -1,0 +1,69 @@
+----AWT + Event Handling
+1. Keyboard
+2. Mouse
+3. Label
+4. Button      
+5. TextField
+6. List
+7. Checkbox
+8. ComboBox
+9. Scroll
+10. TextArea
+
+--Swings
+11. Label
+12. JButton
+13. JCheckBox
+14. JTextField
+15. JRadioButton    *
+16. JToggleButton
+17. JComboBox
+18. JList
+
+--Collection
+19. ArrayList
+20. LinkedList
+21. Stack
+22. HashSet
+23. ArrayDeque              --Remaining from Sir
+24. Java Stream Classes     --Remaining from Sir
+
+
+--JDBC
+    - with Access File
+25. connection
+26. create table            stmt        | --> try different different things
+27. Insert table            prepareStmt       | --> conn.close() is important
+28. Select table            ResultSet = conn.executeQuery()
+29. Update table            
+30. Delete table
+
+    - with MySql        -- !!!!!!!!!!!!     NOT done yet
+31. 
+
+
+---Servlet
+32. HelloServlet    --> http://localhost:8081/examples/helloShubham
+33. PostParametersServlet   --> ....................../servlets/_02_ReadingServletParameters.html
+34. ReadingInitializationParameters     --> ........../InitServletParameters
+35. Handling HTTP GET Request   --> examples/servlets/_04_HandlingHttpGetRequest.html
+36. Handling HTTP POSt Request   --> ................/
+
+
+---JSP
+37. Hello JSP with scriptlet tag
+38. Expression tag
+39. Variable Declaration in Declaration tag
+40. Function Declaration in Declaration tag
+
+-Implicit Objects-
+40. out
+39. request
+40. response
+41. config
+
+-Directives-
+42. import
+43. errorPage
+44. isErrorPage
+45. include

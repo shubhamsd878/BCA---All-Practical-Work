@@ -1,0 +1,10 @@
+Keyboard --> KeyListener
+Mouse    --> MouseEvent, MouseMotionListener
+Label
+Button   --> ActionListener
+TextField--> TextListener
+List     --> ActionListener
+Checkbox --> ItemListener
+ComboBox --> ItemListener
+scroll   --> AdjustmentListener
+TextArea --> TextListener

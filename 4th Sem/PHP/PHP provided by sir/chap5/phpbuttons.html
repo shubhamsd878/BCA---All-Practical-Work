@@ -1,0 +1,41 @@
+ <html>
+<head>
+<title>Handling  Buttons</title>
+<script language="javascript">
+
+function setbutton1()
+{
+document.form1.button.value="button1"
+form1.submit()
+}
+
+function setbutton2()
+{
+document.form1.button.value="button2"
+form1.submit()
+}
+
+
+function setbutton3()
+{
+document.form1.button.value="button3"
+form1.submit()
+}
+
+</script>
+</head>
+<body>
+<h1>Handling  Buttons</h1>
+
+<form name="form1" method="post" action="phpbuttons.php">
+<input type="hidden" name="button" >
+
+<input type="button" value="button1" onclick="setbutton1()">
+<input type="button" value="button2" onclick="setbutton2()">
+<input type="button" value="button3" onclick="setbutton3()">
+</form>
+
+
+
+</body>
+</html>

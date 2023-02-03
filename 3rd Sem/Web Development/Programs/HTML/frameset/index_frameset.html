@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Frameset</title>
+</head>
+<body>
+    <!-- <frameset cols="50%,50%" > -->
+        <frameset cols = "25%,50%,25%">
+        <!-- <frame name = "elements" src = "element.html" />
+        <frame name = "displayElement" src  />
+        <-- <frame name="displayContent">Display Content</frame> --! > 
+        
+        <noframes>
+            <body>
+                Your browser does not support frames
+            </body>
+        </noframes> -->
+        
+        <frame name = "left" src = "/html/top_frame.htm" />
+        <frame name = "center" src = "/html/main_frame.htm" />
+        <frame name = "right" src = "/html/bottom_frame.htm" />
+        
+        <noframes>
+            <body>Your browser does not support frames.</body>
+        </noframes>
+        
+    </frameset> 
+
+</body>
+</html>
